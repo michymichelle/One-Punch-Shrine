@@ -1,0 +1,55 @@
+* {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  object-fit: cover;
+}
+
+#image {
+  display: block;
+  flex-wrap: wrap;
+  object-fit: cover;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+p {
+  color: rgb(228, 88, 188);
+  font-family: Calibri;
+  font-size: 120%;
+  text-align: center;
+}
+
+h1 {
+  color: turquoise;
+  text-align: center;
+  font-family: Calibri;
+}
+
+figcaption {
+  font-family: Calibri;
+  color: #1a9f6f;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(00, 00, 00);
+  }
+}
+
+a {
+  color: pink;
+}
+
+a:hover {
+  background-color: blue;
+  cursor: pointer;
+}
